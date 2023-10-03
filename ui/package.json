@@ -8,7 +8,7 @@
     "gatsby"
   ],
   "scripts": {
-    "dev": "gatsby develop",
+    "dev": "gatsby clean && gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
@@ -22,10 +22,14 @@
     "gatsby-source-filesystem": "^5.12.0",
     "gatsby-source-sanity": "^7.8.1",
     "gatsby-transformer-sharp": "^5.12.0",
+    "locomotive-scroll": "^4.1.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "use-debounce": "^9.0.4",
+    "use-resize-observer": "^9.1.0"
   },
   "devDependencies": {
+    "@types/locomotive-scroll": "^4.1.1",
     "@types/node": "^20.3.3",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
